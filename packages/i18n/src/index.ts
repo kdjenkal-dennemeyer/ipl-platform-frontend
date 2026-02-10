@@ -1,2 +1,2 @@
-// Export i18n utilities here
-export {}
+export { default as i18n } from './i18n';
+export { useTranslation, Trans, Translation } from 'react-i18next';
